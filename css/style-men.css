@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .contenedor{
@@ -18,18 +19,19 @@ body{
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
+    
 }
 
 .header{
     height: 100vh;
     /* 02 */
-    /* background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(../img/ramona-portada.png); */
-    background-image: url(../img/ramona-women.png);
+    background-image: url(../img/ramona-men.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-color: black;
     
 }
 
@@ -65,7 +67,7 @@ body{
     /* 02 */
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     /* 028 */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #000000 0%, #706c75 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -90,17 +92,23 @@ body{
 .titulo{
     font-size: 60px;
     margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+
 }
 
 .copy{
     font-weight: 300;
     font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
 }
 
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: #242222;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -128,13 +136,13 @@ body{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #000000;
 }
 
 .number{
     display: inline-block;
     /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #5c3333 0%, #ada9ac 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -146,7 +154,7 @@ body{
 }
 
 .gallery{
-    background: #f2f2f2;
+    background: #ffffff;
 }
 
 .contenedor-galeria{
@@ -229,7 +237,7 @@ body{
 }
 
 footer{
-    background: #9f8ad0;
+    background: #262527;
     padding-bottom: 0.1px;
 }
 
@@ -392,10 +400,10 @@ footer{
     }
     
 }
-.button{
+.women{
     text-decoration: none;
     color: aliceblue;
-    background-color: black;
+    background-color: #D9a3a3;
     border-radius: 5px;
     padding: 20px;
     font-size: 35px;
