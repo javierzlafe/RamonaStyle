@@ -1,0 +1,22 @@
+[
+    {
+        "usuario": "javier",
+        "pasword": "1234",
+        "nivel": "1"
+    },
+    {
+        "usuario": "nico",
+        "pasword": "12ab",
+        "nivel": "1"
+    },
+    {
+        "usuario": "sabri",
+        "pasword": "12ab",
+        "nivel": "1"
+    },
+    {
+        "usuario": "jorge",
+        "pasword": "12ab",
+        "nivel": "1"
+    }
+]
