@@ -13,11 +13,11 @@ body{
 }
 
 .contenedor{
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding: 60px 0;
+    padding: 80px ;
 }
 
 .header{
@@ -59,7 +59,7 @@ body{
 .menu-navegacion{
     position: fixed;
     top: 0;
-    width: 30vw;
+    width: 25vw;
     height: 100%;
     /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
     /* 02 */
@@ -124,11 +124,13 @@ body{
 
 .service{
     margin-bottom: 20px;
+    font-size: 10px;
 }
 
 .n-service{
     margin-bottom: 7px;
     color: #9f8ad0;
+    font-size: 20px;
 }
 
 .number{
@@ -238,8 +240,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 
@@ -303,16 +305,20 @@ footer{
     }
 
     .contenedor-servicio img{
-        width: 80%;
-        margin-bottom: 40px;
+        width: 60%;
+        margin-bottom: 20px;
+        
+        
     }
     
     .checklist-servicio{
-        width: 80%;
+        width: 60%;
+        
     }
 
     .service{
         margin-bottom: 30px;
+        
     }
 
     .img-galeria{
@@ -325,7 +331,7 @@ footer{
 
     
     .cont-expert{
-        width: 80%;
+        width: 30%;
     }
     
     .footer-content{

@@ -51,3 +51,18 @@
 .shopping-cart-total {
   min-height: 96px;
 }
+
+.button{
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(19, 17, 17);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+#comprarWhats{
+  list-style: none;
+  text-decoration: none;
+}
